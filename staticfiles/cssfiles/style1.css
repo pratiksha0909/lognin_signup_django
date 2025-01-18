@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#DDD6F3,#FAACA8);
+}
+.btn{
+    height: 40px;
+    width: 250px;
+    background: linear-gradient(#294c58,#2C5364);
+    border-radius: 20px;
+   }
+a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select{
+    height: 60%;
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+
+}

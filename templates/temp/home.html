@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'cssfiles/style1.css' %}">
+</head>
+<body>
+    <center>
+    <h1>Get Started</h1>
+    <h2>Start with Signup or Login</h2>
+    <img src="{% static 'images/cm2.png' %}" height="280" width="300">
+    <div class="btn"><a href="/signup">Signup<a></a></div>
+    <br>
+    <div class="btn"><a href="/accounts/login">Login<a></a></div>
+</center>
+
+</body>
+</html>
